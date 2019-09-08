@@ -11,7 +11,7 @@
 # temp = 18
 # if temp < 20 :
 #     print("J'ai froid")
-# if temp > 30 :
+# elif temp > 30 :
 #     print("J'ai chaud")
 # else :
 #     print("Je suis bien")
@@ -22,8 +22,7 @@
 #     else:
 #         print(i, "impair") 
 
-for i range(10) :
-    print("Table de "+ str 'i))
-    for j range(10) :
-        sum i*j:
-        print(str(i) + "*" + str(j), "=", sum i*j)
+for i in range(10):
+    print("Table de "+ str(i))
+    for j in range(10):
+       print(str(i) + "*" + str(j) + "=" + str(i*j))
