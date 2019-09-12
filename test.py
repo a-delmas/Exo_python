@@ -22,7 +22,12 @@
 #     else:
 #         print(i, "impair") 
 
-for i in range(10):
-    print("Table de "+ str(i))
-    for j in range(10):
-       print(str(i) + "*" + str(j) + "=" + str(i*j))
+                # for i in range(10):
+                #     print("Table de "+ str(i))
+                #     for j in range(10):
+                #        print(str(i) + "*" + str(j) + "=" + str(i*j))
+
+num_table : range(10)
+print("Table de ", str(num_table))
+number : range(10)
+        print("\t" + str(num_table) + " x " + str(number) " = " str(num_table) * str(number))
