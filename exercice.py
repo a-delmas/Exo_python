@@ -36,13 +36,13 @@
 # print(is_found)
 #     print(maliste.index(mynumber))
 
-            # resultat = 0
-            # for i in range(len(maliste)):
-            #     if maliste[i]%n == 0:
-            #         resultat += i
-            # print(str(i) + "est divisible par" + "n")
-            #     else:
-            # print(str(i) + "n'est pas divisible par" + "n")
+# resultat = 0
+# for i in range(len(maliste)):
+#     if maliste[i]%n == 0:
+#         resultat += i
+# print(str(i) + "est divisible par" + "n")
+#     else:
+# print(str(i) + "n'est pas divisible par" + "n")
 
 # l = []
 # nb_elements = 9
@@ -51,8 +51,13 @@
 #     l.append(random.randint (1, 100))
 # print(l)
 
-l1 = [2, 4, 9, 10, 5, 12]
-l2 = []
+import random
+liste_etu = ["aurore", "mathieu", "julie"]
+num = random.randint(0, len(liste_etu)-1)
+print(liste_etu[num])
+
+# l1 = [2, 4, 9, 10, 5, 12]
+# l2 = []
 
                                 # for i in range(len(l1)):
                                 #     if l1[i] % 2 == 0: 
@@ -71,18 +76,30 @@ l2 = []
                                 #                 #     print(i)
                                 #                 # else:
                                 #                 #     print(a.pop[i])
+# for num in l1:
+#     if num % 2 == 0: 
+#         print(num,"pair")
+#         l2.append(num)
+#     else:
+#         print(num,"impair")
 
-for i in l1:
-    if i % 2 != 0:
-        l2.append(i)
-        l1.remove(i)
+# print(l2)
 
-for i in range(len(l1)):
-    if l1[i] % 2 = 0:
-        l2.append(l1[i])
+# for i in l1:
+#     if i % 2 != 0:
+#         l2.append(i)
+#         l1.remove(i)
 
-for i in range(len([l2])):
-    l1.remove(l2[i])
+# for i in range(len(l1)):
+#     if l1[i] % 2 == 0:
+#         l2.append(l1[i])
 
-print(l1)
-print(set(l2))
+# for i in range(len([l2])):
+#     l1.remove(l2[i])
+
+# l1 = set(l1)
+# l2 = set(l2)
+
+# print(l1)
+# print(l2)
+
