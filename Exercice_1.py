@@ -41,12 +41,21 @@
 
 First_name = "anna"
 
-for i in range (len(First_name)):
-    if First_name == reversed(First_name):
-    # if len(str First_name)[0] == len(str First_name)[i]:
-    #     if len(First_name)[1] == len(First_name)[i-1]:
-        print("Palindrome")
+"""
+if First_name == ''.join(reversed(First_name)):
+    print("Palindrome")
+else:
+    print("Pas palindrome")
+"""
+# if len(str First_name)[0] == len(str First_name)[i]:
+#     if len(First_name)[1] == len(First_name)[i-1]:
 
+result = True
+for i in range (len(First_name)):
+    if First_name[i] != First_name[len(First_name) - 1 - i]:
+        result = False
+
+print(result)
 
                         # def is_palindrome(First_name):
                         #     return First_name == First_name[::-1]
